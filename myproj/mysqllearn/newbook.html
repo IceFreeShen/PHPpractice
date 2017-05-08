@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>new book insert</title>
+</head>
+<body>
+    <h1>New Book Insert</h1>
+    <form action="insert_book.php" method="post">
+        <table>
+            <tr align="center">
+                <td align="left">ISBN:</td>
+                <td align="left"><input type="text" name="isbn" size="13" maxlength="13"> </td>
+            </tr>
+            <tr align="center">
+                <td align="left">Author:</td>
+                <td align="left"><input type="text" name="author" maxlength="30" size="30"></td>
+            </tr>
+            <tr align="center">
+                <td align="left">Title:</td>
+                <td align="left"><input type="text" name="title" size="30" maxlength="60"></td>
+            </tr>
+            <tr align="center">
+                <td align="left">Price:</td>
+                <td align="left">$<input type="text" name="price" maxlength="7" size="7"></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><input type="submit" value="Register"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
